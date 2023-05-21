@@ -51,35 +51,35 @@
             <div class="sidebar-brand-text mx-3"><span>Fincubator</span></div></a
           >
           <hr class="sidebar-divider my-0" />
-          <ul class="navbar-nav text-light" id="accordionSidebar">
+          <ul class="navbar-nav text-light \" id="accordionSidebar">
             <li class="nav-item">
               <a class="nav-link active" href="KPI.html"
-                ><i class="fas fa-tachometer-alt"></i><span>KPI's</span></a
+                ><i class="fas fa-tachometer-alt"></i><span  style="font-size: medium;">KPI's</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Burn.html"
-                ><i class="fas fa-user"></i><span>Burn Rate Analysis</span></a
+                ><i class="fas fa-user"></i><span  style="font-size: medium;">Burn Rate Analysis</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Forecasting.html"
-                ><i class="fas fa-table"></i><span>Forecasting and Projections</span></a
+                ><i class="fas fa-table"></i><span  style="font-size: medium;">Forecasting</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="BreakEven.html"
-                ><i class="far fa-user-circle"></i><span>Break even Analysis</span></a
+                ><i class="far fa-user-circle"></i><span  style="font-size: medium;">Break even Analysis</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Capital.html"
-                ><i class="far fa-user-circle"></i><span>Captial Structure Analysis</span></a
+                ><i class="far fa-user-circle"></i><span  style="font-size: medium;">Captial Structure Analysis</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Home.html"
-                ><i class="far fa-user-circle"></i><span>Home</span></a
+                ><i class="far fa-user-circle"></i><span  style="font-size: medium;">Home</span></a
               >
             </li>
             
@@ -129,6 +129,166 @@
              
             </div>
           </nav>
+          <div class="ms-4 mb-2">
+            <div class="pl-5 pb-1 text-gray-600">
+              <h4>What is Break even?</h4>
+            </div>
+            <div class="mb-2 text-gray-600">
+              <p>Break-even refers to the point at which total revenue equals total costs, resulting in neither profit nor loss. In other words, it is the point at which a business or project covers all its expenses and starts generating a profit. At the break-even point, there is no net income or net loss.</p>
+            </div>
+            <div class="pl-5 pb-2 text-gray-600">
+              <h4>Example</h4>
+            </div>
+            <div class="text-gray-600 pb-3">
+              <p>Sarah starts a new café and determines that she needs to sell 100 cups of coffee per day to reach her break-even point. In the initial weeks, she struggles to attract enough customers and sells an average of only 50 cups per day, resulting in losses.
+
+                To improve her chances of breaking even, Sarah introduces daily specials and extends her opening hours to accommodate a wider range of customers. She also partners with local businesses to offer discounts and promotions to their employees. These efforts gradually attract more customers, and by the end of the third month, Sarah reaches her break-even point, selling an average of 100 cups of coffee per day.</p>
+            </div>
+            
+          </div>
+          <div class="container">
+
+          
+       
+  
+        <div class="ps-4">
+  
+            
+            
+          <div class="row">
+            <div class="col mb-4">
+              <div class="card shadow border-start-primary py-2">
+                <div class="card-body">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col me-2">
+                      <div class="text-uppercase text-danger fw-bold text-s mb-1">
+                        <span>Fixed Cost</span>
+                      </div>
+                      <div class="row g-0 align-items-center">
+                        <div class="col-auto">
+                          <div class="text-dark fw-bold h5 mb-0 me-3">
+                            <input id="Churn" type="number" onchange="myFunction()">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card shadow border-start-info py-2">
+                <div class="card-body">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col me-2">
+                      <div class="text-uppercase text-info fw-bold text-s mb-1">
+                        <span>Variable cost</span>
+                      </div>
+                      <div class="row g-0 align-items-center">
+                        <div class="col-auto">
+                          <div class="text-dark fw-bold h5 mb-0 me-3">
+                            <input id="Gross_Margin" type="number" onchange="myFunction()">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card shadow border-start-info py-2">
+                <div class="card-body">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col me-2">
+                      <div class="text-uppercase text-primary fw-bold text-s mb-1">
+                        <span>Selling price</span>
+                      </div>
+                      <div class="row g-0 align-items-center">
+                        <div class="col-auto">
+                          <div class="text-dark fw-bold h5 mb-0 me-3">
+                            <input id="projected" type="number" onchange="myFunction()">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+         
+          
+        </div>
+          
+        <div class="ps-4">
+  
+            
+            
+          <div class="row">
+            <div class="col mb-4">
+              <div class="card shadow border-start-primary py-2">
+                <div class="card-body">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col me-2">
+                      <div class="text-uppercase text-danger fw-bold text-s mb-1">
+                        <span>be_revenue</span>
+                      </div>
+                      <div class="row g-0 align-items-center">
+                        <div class="col-auto">
+                          <div class="text-dark fw-bold h5 mb-0 me-3">
+                           <span>6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card shadow border-start-info py-2">
+                <div class="card-body">
+                  <div class="row align-items-center no-gutters">
+                    <div class="col me-2">
+                      <div class="text-uppercase text-info fw-bold text-s mb-1">
+                        <span>be_users</span>
+                      </div>
+                      <div class="row g-0 align-items-center">
+                        <div class="col-auto">
+                          <div class="text-dark fw-bold h5 mb-0 me-3">
+                           <span>6</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+           
+          </div>
+         
+          
+        </div>
+      </div>
          
           
         </div>
